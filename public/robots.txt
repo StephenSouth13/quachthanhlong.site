@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://qtl.dev/sitemap.xml
+Sitemap: https://quachthanhlong.com/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1

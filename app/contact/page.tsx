@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     title: "Contact - Quách Thành Long | Get In Touch",
     description:
       "Contact Quách Thành Long for web development, business analysis, game development projects, or investment opportunities.",
-    url: "https://qtl.dev/contact",
+    url: "https://quachthanhlong.com/contact",
     siteName: "Quách Thành Long",
     images: [
       {
-        url: "https://qtl.dev/og-contact.jpg",
+        url: "https://quachthanhlong.com/og-contact.jpg",
         width: 1200,
         height: 630,
         alt: "Contact Quách Thành Long",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Contact - Quách Thành Long | Get In Touch",
     description:
       "Contact Quách Thành Long for web development, business analysis, game development projects, or investment opportunities.",
-    images: ["https://qtl.dev/og-contact.jpg"],
+    images: ["https://quachthanhlong.com/og-contact.jpg"],
   },
 }
 

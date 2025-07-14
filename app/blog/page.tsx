@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     title: "Blog - Quách Thành Long | Tech Insights & Business Analysis",
     description:
       "Explore in-depth articles about technology, business analysis, game development, and investment strategies.",
-    url: "https://qtl.dev/blog",
+    url: "https://quachthanhlong.com/blog",
     siteName: "Quách Thành Long",
     images: [
       {
-        url: "https://qtl.dev/og-blog.jpg",
+        url: "https://quachthanhlong.com/og-blog.jpg",
         width: 1200,
         height: 630,
         alt: "Quách Thành Long Blog",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Blog - Quách Thành Long | Tech Insights & Business Analysis",
     description:
       "Explore in-depth articles about technology, business analysis, game development, and investment strategies.",
-    images: ["https://qtl.dev/og-blog.jpg"],
+    images: ["https://quachthanhlong.com/og-blog.jpg"],
   },
 }
 

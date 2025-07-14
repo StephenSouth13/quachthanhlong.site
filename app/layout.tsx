@@ -17,7 +17,7 @@ const sora = Sora({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://qtl.dev"),
+  metadataBase: new URL("https://quachthanhlong.com"),
   title: {
     default: "Quách Thành Long - CTO | Investor | Web/Game Developer | Business Analyst",
     template: "%s | Quách Thành Long",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     "VTC Academy",
     "UEH Graduate",
   ],
-  authors: [{ name: "Quách Thành Long", url: "https://qtl.dev" }],
+  authors: [{ name: "Quách Thành Long", url: "https://quachthanhlong.com" }],
   creator: "Quách Thành Long",
   publisher: "Quách Thành Long",
   robots: {
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     alternateLocale: "vi_VN",
-    url: "https://qtl.dev",
+    url: "https://quachthanhlong.com",
     siteName: "Quách Thành Long",
     title: "Quách Thành Long - CTO | Investor | Web/Game Developer | Business Analyst",
     description:
@@ -82,10 +82,10 @@ export const metadata: Metadata = {
     yahoo: "your-yahoo-verification-code",
   },
   alternates: {
-    canonical: "https://qtl.dev",
+    canonical: "https://quachthanhlong.com",
     languages: {
-      "en-US": "https://qtl.dev/en",
-      "vi-VN": "https://qtl.dev/vi",
+      "en-US": "https://quachthanhlong.com/en",
+      "vi-VN": "https://quachthanhlong.com/vi",
     },
   },
   category: "technology",
@@ -116,8 +116,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Quách Thành Long",
-              url: "https://qtl.dev",
-              image: "https://qtl.dev/profile-image.jpg",
+              url: "https://quachthanhlong.com",
+              image: "https://quachthanhlong.com/profile-image.jpg",
               sameAs: ["https://linkedin.com/in/qtl-dev", "https://github.com/qtl-dev", "https://facebook.com/qtl.dev"],
               jobTitle: "CTO & Business Analyst",
               worksFor: {
