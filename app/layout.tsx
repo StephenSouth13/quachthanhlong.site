@@ -37,9 +37,17 @@ export const metadata: Metadata = {
     "VTC Academy",
     "UEH Graduate",
   ],
-  authors: [{ name: "Quách Thành Long", url: "https://quachthanhlong.com" }],
+  authors: [
+    {
+      name: "Quách Thành Long",
+      url: "https://quachthanhlong.com",
+    },
+  ],
   creator: "Quách Thành Long",
   publisher: "Quách Thành Long",
+  applicationName: "Quach Thanh Long Portfolio",
+  category: "technology",
+  generator: "Quach-Thanh-Long",
   robots: {
     index: true,
     follow: true,
@@ -72,7 +80,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Quách Thành Long - CTO | Investor | Web/Game Developer | Business Analyst",
-    description: "CTO-level talent passionate about technology, economics, and creating innovative solutions.",
+    description:
+      "CTO-level talent passionate about technology, economics, and creating innovative solutions.",
     images: ["/og-image.jpg"],
     creator: "@qtl_dev",
   },
@@ -88,9 +97,16 @@ export const metadata: Metadata = {
       "vi-VN": "https://quachthanhlong.com/vi",
     },
   },
-  category: "technology",
-    generator: 'v0.dev'
-}
+  // 🔗 Social / Contact info (chèn thêm vào custom logic sử dụng sau)
+  other: {
+    email: "stephensouth1307@gmail.com",
+    phone: "+84-979-137-018",
+    github: "https://github.com/StephenSouth13",
+    linkedin: "https://www.linkedin.com/in/quach-long-338018274/",
+    youtube: "https://www.youtube.com/@southstephen",
+    facebook: "https://www.facebook.com/long.quach.273823/",
+  },
+};
 
 export default function RootLayout({
   children,
