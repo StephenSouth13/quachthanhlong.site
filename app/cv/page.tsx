@@ -1,5 +1,5 @@
 import { CVHero } from "@/components/cv/cv-hero"
-import { CVSidebar } from "@/components/cv/cv-sidebar"
+import CVSidebar from "@/components/cv/cv-sidebar"
 import { CVTimeline } from "@/components/cv/cv-timeline"
 import { CVActions } from "@/components/cv/cv-actions"
 import { Header } from "@/components/header"

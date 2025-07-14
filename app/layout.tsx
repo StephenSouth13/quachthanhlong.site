@@ -86,9 +86,7 @@ export const metadata: Metadata = {
     creator: "@qtl_dev",
   },
   verification: {
-    google: "your-google-verification-code",
-    yandex: "your-yandex-verification-code",
-    yahoo: "your-yahoo-verification-code",
+  google: "61f4017e24e6fc3d",
   },
   alternates: {
     canonical: "https://quachthanhlong.com",
