@@ -70,7 +70,7 @@ export const metadata: Metadata = {
       "CTO-level talent passionate about technology, economics, and creating innovative solutions. Specializing in web development, game development, business analysis, and investment consulting.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/long/long.png",
         width: 1200,
         height: 630,
         alt: "Quách Thành Long - Technology Expert & Business Analyst",
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     description:
       "CTO-level talent passionate about technology, economics, and creating innovative solutions.",
     images: ["/og-image.jpg"],
-    creator: "@qtl_dev",
+    creator: "stephensouth1307@gmail.com",
   },
   verification: {
   google: "61f4017e24e6fc3d",
@@ -114,10 +114,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" href="/favicon/manifest.json" />
         <meta name="theme-color" content="#1e293b" />
         <meta name="msapplication-TileColor" content="#1e293b" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
@@ -131,8 +131,8 @@ export default function RootLayout({
               "@type": "Person",
               name: "Quách Thành Long",
               url: "https://quachthanhlong.com",
-              image: "https://quachthanhlong.com/profile-image.jpg",
-              sameAs: ["https://linkedin.com/in/qtl-dev", "https://github.com/qtl-dev", "https://facebook.com/qtl.dev"],
+              image: "https://quachthanhlong.com/long/long.png",
+              sameAs: ["https://www.linkedin.com/in/quach-long-338018274/", "https://github.com/StephenSouth13", "https://www.facebook.com/long.quach.273823/"],
               jobTitle: "CTO & Business Analyst",
               worksFor: {
                 "@type": "Organization",
