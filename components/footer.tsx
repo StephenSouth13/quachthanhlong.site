@@ -2,17 +2,17 @@
 
 import { useLanguage } from "./language-provider"
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { Github, Linkedin, Mail, Twitter, X } from "lucide-react"
 import Link from "next/link"
 
 export function Footer() {
   const { t } = useLanguage()
 
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Mail, href: "mailto:contact@qtl.dev", label: "Email" },
+    { icon: Github, href: "https://github.com/StephenSouth13", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/quach-long-338018274/", label: "LinkedIn" },
+    { icon: X, href: "https://x.com/SouthSteph1307", label: "X" },
+    { icon: Mail, href: "stephensouth1307@gmail.com", label: "Email" },
   ]
 
   const quickLinks = [
@@ -70,8 +70,8 @@ export function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Get In Touch</h3>
             <div className="space-y-2 text-muted-foreground">
-              <p>📧 contact@qtl.dev</p>
-              <p>📱 +84 xxx xxx xxx</p>
+              <p>📧 stephensouth1307@gmail.com</p>
+              <p>📱 0979 137 018</p>
               <p>📍 Ho Chi Minh City, Vietnam</p>
             </div>
             <Button
@@ -84,7 +84,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-border/40 text-center text-muted-foreground">
-          <p>&copy; 2024 Quách Thành Long. All rights reserved.</p>
+          <p>&copy; 2025 Quách Thành Long. All rights reserved.</p>
         </div>
       </div>
     </footer>

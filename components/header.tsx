@@ -6,6 +6,8 @@ import { useLanguage } from "./language-provider"
 import { Button } from "@/components/ui/button"
 import { Moon, Sun, Menu, X, Globe } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
+
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -27,12 +29,19 @@ export function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link
-            href="/"
-            className="text-2xl font-bold font-sora bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"
-          >
-            QTL
-          </Link>
+          <Link href="/" className="flex items-center space-x-2">
+        <Image
+          src="/Logo.png"
+          alt="Quách Thành Long Logo"
+          width={40}
+          height={40}
+          className="rounded-full"
+        />
+        {/* Nếu muốn giữ text kèm logo */}
+        {/* <span className="text-2xl font-bold font-sora bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+          QTL
+        </span> */}
+      </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
