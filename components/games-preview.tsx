@@ -11,14 +11,16 @@ import Image from "next/image"
 import { CursorWrapper } from "@/components/cursor-wrapper"
 
 const games = [
-  {
-    id: 1,
-    title: "Space Strategy",
-    description: "Real-time strategy game with space exploration and resource management",
-    image: "/placeholder.svg?height=200&width=300",
-    tags: ["Unity", "WebGL", "Strategy", "Multiplayer"],
-    playUrl: "#",
-  },
+ {
+  id: 1,
+  title: "Dragon Keeper",
+  description: "Game nuôi rồng fantasy với PvP, tiến hóa & giao diện đẹp mắt. Built with Next.js + Tailwind.",
+  image: "/game/dragon-keeper-preview.png",
+  tags: ["Next.js", "Fantasy", "Game UI", "PvP", "Tailwind"],
+  playUrl: "https://dragon-keeper-game.vercel.app/",
+  target: "_blank", // 👈 thêm dòng này
+},
+
   {
     id: 2,
     title: "Puzzle Adventure",
