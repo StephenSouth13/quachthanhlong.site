@@ -22,13 +22,14 @@ const games = [
 },
 
   {
-    id: 2,
-    title: "Puzzle Adventure",
-    description: "Mind-bending puzzle game with beautiful graphics and immersive gameplay",
-    image: "/placeholder.svg?height=200&width=300",
-    tags: ["Unity", "Mobile", "Puzzle", "Adventure"],
-    playUrl: "#",
-  },
+  id: 2,
+  title: "Cosmic Emotion Letter",
+  description: "Emotional space-themed letter writing game with beautiful UI and healing gameplay.",
+  image: "/game/cosmic-emotion-letter-preview.png", // bạn nhớ tạo hình preview ở đúng path này
+  tags: ["Next.js", "Emotional", "Cosmic", "Letter", "Game"],
+  playUrl: "https://cosmic-emotion-letter-game.vercel.app/play",
+},
+
 ]
 
 export function GamesPreview() {
