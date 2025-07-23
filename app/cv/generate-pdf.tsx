@@ -1,5 +1,7 @@
 // generate-pdf.tsx hoặc generate-pdf.ts
-import html2pdf from "html2pdf.js"
+// @ts-ignore
+import html2pdf from 'html2pdf.js';
+
 
 export const downloadPDF = (elementId: string) => {
   const element = document.getElementById(elementId)
