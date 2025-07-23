@@ -1,3 +1,4 @@
+//app/cv/page.tsx
 import { CVHero } from "@/components/cv/cv-hero"
 import CVSidebar from "@/components/cv/cv-sidebar"
 import { CVTimeline } from "@/components/cv/cv-timeline"
