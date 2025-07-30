@@ -26,7 +26,7 @@ const CVDocument = () => (
     <Page size="A4" style={styles.page}>
       {/* Avatar + Thông tin */}
       <View style={styles.section}>
-        <Image src="https://avatars.githubusercontent.com/u/118548046?v=4" style={styles.avatar} />
+        <Image src="/long/long.png" style={styles.avatar} />
         <Text style={styles.heading}>Quách Thành Long</Text>
         <Text>📧 stephensouth1307@gmail.com | 📱 0979 137 018</Text>
         <Text>📍 Hồ Chí Minh, Việt Nam</Text>
