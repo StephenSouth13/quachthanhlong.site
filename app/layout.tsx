@@ -10,11 +10,15 @@ import { FloatingChatbot } from "@/components/floating-chatbot"
 import { AudioControls } from "@/components/audio-controls"
 import { CustomCursor } from "@/components/custom-cursor"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+})
 const sora = Sora({
   subsets: ["latin"],
   variable: "--font-sora",
 })
+
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://quachthanhlong.com"),

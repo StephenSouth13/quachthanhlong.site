@@ -28,48 +28,49 @@ export function AboutHero() {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           {/* Avatar Section */}
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="flex justify-center lg:justify-start"
-          >
-            <div className="relative">
-              <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 p-2 shadow-2xl animate-pulse">
-                <div className="w-full h-full rounded-full bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center overflow-hidden">
-                  <motion.div
-                    animate={{ rotate: 360 }}
-                    transition={{ duration: 20, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
-                    className="text-8xl font-bold font-sora bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"
-                  >
-                    QTL
-                  </motion.div>
-                </div>
-              </div>
-              {/* Floating particles around avatar */}
-              <div className="absolute -inset-4">
-                {[...Array(8)].map((_, i) => (
-                  <motion.div
-                    key={i}
-                    className="absolute w-2 h-2 bg-white rounded-full opacity-60"
-                    style={{
-                      top: `${Math.random() * 100}%`,
-                      left: `${Math.random() * 100}%`,
-                    }}
-                    animate={{
-                      y: [-10, 10, -10],
-                      opacity: [0.3, 1, 0.3],
-                    }}
-                    transition={{
-                      duration: 3 + Math.random() * 2,
-                      repeat: Number.POSITIVE_INFINITY,
-                      delay: Math.random() * 2,
-                    }}
-                  />
-                ))}
-              </div>
-            </div>
-          </motion.div>
+<motion.div
+  initial={{ opacity: 0, x: -50 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+  className="flex justify-center lg:justify-start"
+>
+  <div className="relative">
+    <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 p-2 shadow-2xl animate-pulse">
+      <div className="w-full h-full rounded-full bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center overflow-hidden">
+        {/* Avatar Image */}
+        <img
+          src="/long/long.png" // Đường dẫn ảnh avatar
+          alt="Quách Thành Long Avatar"
+          className="w-full h-full object-cover rounded-full"
+        />
+      </div>
+    </div>
+
+    {/* Floating particles around avatar */}
+    <div className="absolute -inset-4">
+      {[...Array(8)].map((_, i) => (
+        <motion.div
+          key={i}
+          className="absolute w-2 h-2 bg-white rounded-full opacity-60"
+          style={{
+            top: `${Math.random() * 100}%`,
+            left: `${Math.random() * 100}%`,
+          }}
+          animate={{
+            y: [-10, 10, -10],
+            opacity: [0.3, 1, 0.3],
+          }}
+          transition={{
+            duration: 3 + Math.random() * 2,
+            repeat: Number.POSITIVE_INFINITY,
+            delay: Math.random() * 2,
+          }}
+        />
+      ))}
+    </div>
+  </div>
+</motion.div>
+
 
           {/* Content Section */}
           <motion.div
