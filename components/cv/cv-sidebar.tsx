@@ -22,7 +22,7 @@ export default function CvSidebar() {
     <aside className="w-full lg:w-72 p-6 bg-background/60 backdrop-blur-md rounded-xl space-y-6">
       {/* Avatar */}
       <div className="relative w-32 h-32 mx-auto">
-        <Image src="/placeholder.svg?height=128&width=128" alt="Avatar" fill className="rounded-full object-cover" />
+        <Image src="/long/long.png" alt="Avatar" fill className="rounded-full object-cover" />
       </div>
 
       {/* Name & title */}
