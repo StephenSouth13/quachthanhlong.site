@@ -1,4 +1,4 @@
-//app/cv/page.tsx
+// app/cv/page.tsx (giữ nguyên)
 import { CVHero } from "@/components/cv/cv-hero"
 import CVSidebar from "@/components/cv/cv-sidebar"
 import { CVTimeline } from "@/components/cv/cv-timeline"
