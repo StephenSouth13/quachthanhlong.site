@@ -17,17 +17,17 @@ export function GamesGrid() {
   const games = [
     {
       id: 1,
-      title: "Space Strategy Commander",
+      title: "FLAPPY EVOLUTION: Space Shooter",
       description:
         language === "vi"
-          ? "Game chiến thuật thời gian thực với khám phá vũ trụ và quản lý tài nguyên. Xây dựng đế chế của bạn!"
-          : "Real-time strategy game with space exploration and resource management. Build your empire!",
-      image: "/placeholder.svg?height=300&width=400",
-      category: "strategy",
-      tags: ["Unity", "WebGL", "Strategy", "Multiplayer"],
-      playUrl: "#",
+          ? "Tựa game web siêu gây nghiện hàng đầu kết hợp giữa Flappy Bird, bắn đĩa bay, và hành trình xuyên thời không!"
+          : "The most addictive web game, combining Flappy Bird, UFO shooting, and a time-traveling adventure!",
+      image: "/game/flappy_evolution.png",
+      category: "strategy,jump",
+      tags: ["Nextjs", "WebGL", "Strategy", ],
+      playUrl: "https://flappy-evolution-game.vercel.app/",
       players: "1-4",
-      duration: "30-60 min",
+      duration: "30-60s",
       rating: 4.8,
       plays: 2150,
       featured: true,
