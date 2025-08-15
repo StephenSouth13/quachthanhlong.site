@@ -13,12 +13,12 @@ import { CursorWrapper } from "@/components/cursor-wrapper"
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with React, Node.js, and MongoDB",
-    image: "/placeholder.svg?height=200&width=300",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "#",
-    demo: "#",
+    title: "ThinkShift",
+    description: "Tái định nghĩa năng lực trong Kỷ nguyên Số",
+    image: "/project/ThinkShift.png",
+    tags: ["Nextjs", "Python", "Analytics", "Statistic"],
+    github: "https://github.com/StephenSouth13/thinkshift-vietnam",
+    demo: "https://thinkshift-vietnam.vercel.app/",
   },
   {
     id: 2,
