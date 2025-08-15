@@ -22,12 +22,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "AI Analytics Dashboard",
-    description: "Business intelligence dashboard with machine learning insights",
-    image: "/placeholder.svg?height=200&width=300",
-    tags: ["Next.js", "Python", "TensorFlow", "D3.js"],
-    github: "#",
-    demo: "#",
+    title: "MSC",
+    description: "Trung tâm đào tạo và phát triển kỹ năng chuyên nghiệp hàng đầu Việt Nam",
+    image: "/project/msc.png",
+    tags: ["Next.js", "GoLang", "UI", "Figma"],
+    github: "https://github.com/StephenSouth13/MSC_REBUILD",
+    demo: "https://msc-rebuild.vercel.app/",
   },
   {
     id: 3,
