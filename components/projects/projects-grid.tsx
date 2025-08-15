@@ -14,59 +14,57 @@ export function ProjectsGrid() {
 
   const projects = [
     {
-      id: 1,
-      title: "E-Commerce Platform",
-      description:
-        language === "vi"
-          ? "Nền tảng thương mại điện tử hoàn chỉnh với React, Node.js và MongoDB. Tích hợp thanh toán, quản lý kho và analytics."
-          : "Complete e-commerce platform with React, Node.js and MongoDB. Integrated payments, inventory management and analytics.",
-      image: "/placeholder.svg?height=300&width=400",
-      category: "web",
-      tags: ["React", "Node.js", "MongoDB", "Stripe", "Redux"],
-      github: "#",
-      demo: "#",
-      date: "2024-01",
-      team: 3,
-      views: 1250,
-      featured: true,
-    },
-    {
-      id: 2,
-      title: "AI Analytics Dashboard",
-      description:
-        language === "vi"
-          ? "Dashboard phân tích kinh doanh với machine learning insights, dự đoán xu hướng và báo cáo tự động."
-          : "Business analytics dashboard with machine learning insights, trend prediction and automated reporting.",
-      image: "/placeholder.svg?height=300&width=400",
-      category: "ai",
-      tags: ["Next.js", "Python", "TensorFlow", "D3.js", "PostgreSQL"],
-      github: "#",
-      demo: "#",
-      date: "2024-02",
-      team: 2,
-      views: 890,
-      featured: true,
-    },
-    {
-      id: 3,
-      title: "Unity Game Framework",
-      description:
-        language === "vi"
-          ? "Framework phát triển game Unity tùy chỉnh với hệ thống module, asset management và deployment tự động."
-          : "Custom Unity game development framework with modular system, asset management and automated deployment.",
-      image: "/placeholder.svg?height=300&width=400",
-      category: "game",
-      tags: ["Unity", "C#", "WebGL", "Mobile", "CI/CD"],
-      github: "#",
-      demo: "#",
-      date: "2023-12",
-      team: 1,
-      views: 650,
-      featured: false,
-    },
+  id: 1,
+  title: "ThinkShift",
+  description:
+    language === "vi"
+      ? "Nền tảng chuyển đổi tư duy giúp cá nhân và tổ chức khai phá năng lực vượt trội trong Kỷ nguyên Số. ThinkShift kết hợp công nghệ phân tích dữ liệu, trí tuệ nhân tạo và các phương pháp thống kê tiên tiến để cung cấp báo cáo trực quan, hỗ trợ ra quyết định chiến lược."
+      : "A mindset-shifting platform empowering individuals and organizations to unlock their full potential in the Digital Era. ThinkShift integrates data analytics, artificial intelligence, and advanced statistical methods to deliver insightful reports and guide strategic decision-making.",
+  image: "/project/ThinkShift.png",
+  tags: ["Next.js", "Python", "Analytics", "Statistics"],
+  github: "https://github.com/StephenSouth13/thinkshift-vietnam",
+  demo: "https://thinkshift-vietnam.vercel.app/",
+  date: "2025-06-13",
+  team: 3,
+  views: 1250,
+  featured: true,
+},
+{
+  id: 2,
+  title: "MSC",
+  description:
+    language === "vi"
+      ? "Hệ thống đào tạo và phát triển kỹ năng chuyên nghiệp, kết hợp công nghệ web hiện đại để quản lý khóa học, giảng viên, và học viên một cách tối ưu. MSC hướng tới việc nâng cao năng lực cá nhân và doanh nghiệp thông qua nội dung chất lượng, giao diện thân thiện và trải nghiệm học tập linh hoạt."
+      : "A professional training and skills development system that leverages modern web technologies to efficiently manage courses, instructors, and learners. MSC is designed to enhance both individual and corporate capabilities through high-quality content, an intuitive interface, and a flexible learning experience.",
+  image: "/project/msc.png",
+  tags: ["Next.js", "GoLang", "UI", "Figma"],
+  github: "https://github.com/StephenSouth13/MSC_REBUILD",
+  demo: "https://msc-rebuild.vercel.app/",
+  date: "2025-03",
+  team: 10,
+  views: 890,
+  featured: true,
+},
+{
+  id: 3,
+  title: "Fragments of Memory Game",
+  description:
+    language === "vi"
+      ? "Trò chơi chữa lành mang phong cách nghệ thuật, nơi người chơi khám phá một thế giới đầy ký ức và cảm xúc. 'Fragments of Memory' kết hợp gameplay nhẹ nhàng, âm nhạc sâu lắng và hình ảnh tinh tế để mang lại trải nghiệm thư giãn và ý nghĩa."
+      : "An artistic healing game where players explore a world filled with memories and emotions. 'Fragments of Memory' blends gentle gameplay, soothing music, and delicate visuals to create a relaxing and meaningful experience.",
+  image: "/project/Fragments of Memory.png",
+  tags: ["Unity", "C#", "WebGL", "Mobile"],
+  github: "https://github.com/StephenSouth13/Fragments-of-Memory_Game",
+  demo: "https://website-the-next-generation-o323.vercel.app/",
+  date: "2023-12",
+  team: 1,
+  views: 650,
+  featured: false,
+},
+
     {
       id: 4,
-      title: "Content Management System",
+      title: "CRM Company",
       description:
         language === "vi"
           ? "CMS linh hoạt với editor WYSIWYG, quản lý media, SEO optimization và multi-language support."
