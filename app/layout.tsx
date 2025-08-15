@@ -172,7 +172,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${inter.className} ${sora.variable} antialiased`}>
+      <body className={`${inter.className} ${sora.variable} antialiased`} suppressHydrationWarning={true}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <LanguageProvider>
             <AudioProvider>

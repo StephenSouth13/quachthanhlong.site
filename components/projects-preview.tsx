@@ -31,12 +31,12 @@ const projects = [
   },
   {
     id: 3,
-    title: "Game Development Framework",
-    description: "Custom Unity framework for rapid game development",
-    image: "/placeholder.svg?height=200&width=300",
+    title: "Fragments of Memory Game",
+    description: "Healing Game",
+    image: "/project/Fragments of Memory.png",
     tags: ["Unity", "C#", "WebGL", "Mobile"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/StephenSouth13/Fragments-of-Memory_Game",
+    demo: "https://website-the-next-generation-o323.vercel.app/",
   },
 ]
 
