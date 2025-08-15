@@ -19,7 +19,6 @@ export function Header() {
     { href: "/about", label: t("nav.about") },
     { href: "/projects", label: t("nav.projects") },
     { href: "/games", label: t("nav.games") },
-    { href: "/cv", label: t("nav.cv") },
     { href: "/blog", label: t("nav.blog") },
     { href: "/contact", label: t("nav.contact") },
   ]

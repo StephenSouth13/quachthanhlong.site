@@ -162,6 +162,8 @@ export default function RootLayout({
                 "Unity",
                 "JavaScript",
                 "TypeScript",
+                "Unity"
+                
               ],
               address: {
                 "@type": "PostalAddress",
