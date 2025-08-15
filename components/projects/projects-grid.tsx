@@ -59,7 +59,7 @@ export function ProjectsGrid() {
   date: "2023-12",
   team: 1,
   views: 650,
-  featured: false,
+  featured: true,
 },
 
     {
@@ -69,14 +69,14 @@ export function ProjectsGrid() {
         language === "vi"
           ? "CMS linh hoạt với editor WYSIWYG, quản lý media, SEO optimization và multi-language support."
           : "Flexible CMS with WYSIWYG editor, media management, SEO optimization and multi-language support.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/project/LifeOS.png",
       category: "cms",
       tags: ["Next.js", "Prisma", "PostgreSQL", "Tailwind", "TypeScript"],
-      github: "#",
-      demo: "#",
-      date: "2024-03",
-      team: 2,
-      views: 420,
+      github: "https://github.com/StephenSouth13/Front_End_Self-Working_System",
+      demo: "https://front-end-self-working-system.vercel.app/",
+      date: "2024-12",
+      team: 1,
+      views: 1020,
       featured: false,
     },
     {
