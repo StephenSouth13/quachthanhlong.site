@@ -49,6 +49,24 @@ export function GamesGrid() {
   plays: 1890,
   featured: true,
 },
+{
+  id: 3,
+  title: "Pixel Adventure Unity",
+  description:
+    language === "vi"
+      ? "Game platformer 2D phong cách pixel art. Người chơi điều khiển nhân vật vượt chướng ngại vật, thu thập vật phẩm và hoàn thành màn chơi."
+      : "A 2D pixel art platformer game where players control a character to overcome obstacles, collect items, and complete levels.",
+  image: "/game/pixeladventure.png",
+  category: "platformer",
+  tags: ["Unity", "2D", "PixelArt", "Platformer"],
+  playUrl: "https://github.com/StephenSouth13/Pixel-Adventure-Unity",
+  players: "1",
+  duration: "5-15 min",
+  rating: 4.7,
+  plays: 1250,
+  featured: true,
+},
+
     
   ]
 
