@@ -14,61 +14,86 @@ export function GamesGrid() {
   const { language } = useLanguage()
   const [selectedGame, setSelectedGame] = useState<number | null>(null)
 
-  const games = [
-    {
-      id: 1,
-      title: "FLAPPY EVOLUTION: Space Shooter",
-      description:
-        language === "vi"
-          ? "Tựa game web siêu gây nghiện hàng đầu kết hợp giữa Flappy Bird, bắn đĩa bay, và hành trình xuyên thời không!"
-          : "The most addictive web game, combining Flappy Bird, UFO shooting, and a time-traveling adventure!",
-      image: "/game/flappy_evolution.png",
-      category: "strategy,jump",
-      tags: ["Nextjs", "WebGL", "Strategy", ],
-      playUrl: "https://flappy-evolution-game.vercel.app/",
-      players: "1",
-      duration: "30-60s",
-      rating: 4.8,
-      plays: 2150,
-      featured: true,
-    },
-    {
-  id: 2,
-  title: "Flappy Bird Unity",
-  description:
-    language === "vi"
-      ? "Game arcade đơn giản, người chơi điều khiển một chú chim bay qua các cột ống màu xanh lá cây mà không chạm vào chúng."
-      : "Simple arcade game where the player controls a bird, navigating it through a series of green pipes without hitting them.",
-  image: "/game/flappybird.png",
-  category: "arcade",
-  tags: ["Unity", "Mobile", "Skill", "Hypercasual"],
-  playUrl: "#",
-  players: "1",
-  duration: "1-5 min",
-  rating: 4.6,
-  plays: 1890,
-  featured: true,
-},
-{
-  id: 3,
-  title: "Pixel Adventure Unity",
-  description:
-    language === "vi"
-      ? "Game platformer 2D phong cách pixel art. Người chơi điều khiển nhân vật vượt chướng ngại vật, thu thập vật phẩm và hoàn thành màn chơi."
-      : "A 2D pixel art platformer game where players control a character to overcome obstacles, collect items, and complete levels.",
-  image: "/game/pixeladventure.png",
-  category: "platformer",
-  tags: ["Unity", "2D", "PixelArt", "Platformer"],
-  playUrl: "https://github.com/StephenSouth13/Pixel-Adventure-Unity",
-  players: "1",
-  duration: "5-15 min",
-  rating: 4.7,
-  plays: 1250,
-  featured: true,
-},
+ const games = [
+  {
+    id: 1,
+    title: "🚀 FLAPPY EVOLUTION: Space Shooter",
+    description:
+      language === "vi"
+        ? "🔥 Tựa game web siêu gây nghiện, kết hợp giữa Flappy Bird huyền thoại, bắn đĩa bay và hành trình xuyên thời không đầy kịch tính!"
+        : "🔥 The most addictive web game ever, combining the legendary Flappy Bird, UFO shooting, and an epic time-traveling adventure!",
+    image: "/game/flappy_evolution.png",
+    category: "arcade, shooter",
+    tags: ["Next.js", "WebGL", "Arcade", "Shooter", "TimeTravel"],
+    playUrl: "https://flappy-evolution-game.vercel.app/",
+    players: "1",
+    duration: "30-60s",
+    rating: 4.8,
+    plays: 2150,
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "🐦 Flappy Bird Unity",
+    description:
+      language === "vi"
+        ? "Game arcade kinh điển, nơi bạn điều khiển chú chim vượt qua những chiếc ống xanh mà không để va chạm!"
+        : "Classic arcade game where you guide a bird through green pipes without crashing!",
+    image: "/game/flappybird.png",
+    category: "arcade",
+    tags: ["Unity", "Mobile", "Skill", "Hypercasual"],
+    playUrl: "#",
+    players: "1",
+    duration: "1-5 min",
+    rating: 4.6,
+    plays: 1890,
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "🎮 Pixel Adventure Unity",
+    description:
+      language === "vi"
+        ? "Game platformer 2D phong cách pixel art. Hóa thân thành nhân vật nhỏ bé, vượt chướng ngại vật, thu thập vật phẩm và chinh phục hành trình!"
+        : "2D pixel art platformer where you control a tiny hero to overcome obstacles, collect treasures, and conquer the adventure!",
+    image: "/game/pixeladventure.png",
+    category: "platformer",
+    tags: ["Unity", "2D", "PixelArt", "Platformer"],
+    playUrl: "https://github.com/StephenSouth13/Pixel-Adventure-Unity",
+    players: "1",
+    duration: "5-15 min",
+    rating: 4.7,
+    plays: 1250,
+    featured: true,
+  },
+  {
+    id: 4,
+    title: "🐉 Dragon Keeper",
+    description:
+      language === "vi"
+        ? "Game fantasy nuôi rồng với chế độ PvP, tiến hóa và giao diện tuyệt đẹp. Xây dựng thế giới rồng của riêng bạn!"
+        : "Fantasy dragon-raising game with PvP, evolution, and stunning UI. Build your own dragon world!",
+    image: "/game/dragon-keeper-preview.png",
+    category: "fantasy, strategy",
+    tags: ["Next.js", "Fantasy", "GameUI", "PvP", "Tailwind"],
+    playUrl: "https://dragon-keeper-game.vercel.app/",
+    target: "_blank",
+  },
+  {
+    id: 5,
+    title: "💌 Cosmic Emotion Letter",
+    description:
+      language === "vi"
+        ? "Một trải nghiệm game cảm xúc giữa không gian vũ trụ. Viết và gửi những lá thư chứa đựng tâm tư, để chữa lành tâm hồn."
+        : "An emotional, space-themed game of writing and sending letters to heal your soul.",
+    image: "/game/cosmic-emotion-letter-preview.png",
+    category: "emotional, casual",
+    tags: ["Next.js", "Emotional", "Cosmic", "Letter", "Casual"],
+    playUrl: "https://cosmic-emotion-letter-game.vercel.app/play",
+    target: "_blank",
+  },
+];
 
-    
-  ]
 
   return (
     <section className="py-20">
