@@ -26,97 +26,30 @@ export function GamesGrid() {
       category: "strategy,jump",
       tags: ["Nextjs", "WebGL", "Strategy", ],
       playUrl: "https://flappy-evolution-game.vercel.app/",
-      players: "1-4",
+      players: "1",
       duration: "30-60s",
       rating: 4.8,
       plays: 2150,
       featured: true,
     },
     {
-      id: 2,
-      title: "Puzzle Adventure Quest",
-      description:
-        language === "vi"
-          ? "Game giải đố phiêu lưu với đồ họa đẹp mắt và gameplay cuốn hút. Khám phá thế giới bí ẩn!"
-          : "Mind-bending puzzle adventure game with beautiful graphics and immersive gameplay. Explore mysterious worlds!",
-      image: "/placeholder.svg?height=300&width=400",
-      category: "casual",
-      tags: ["Unity", "Mobile", "Puzzle", "Adventure"],
-      playUrl: "#",
-      players: "1",
-      duration: "15-30 min",
-      rating: 4.6,
-      plays: 1890,
-      featured: true,
-    },
-    {
-      id: 3,
-      title: "Math Learning Fun",
-      description:
-        language === "vi"
-          ? "Game giáo dục toán học cho trẻ em với mini-games vui nhộn và hệ thống phần thưởng hấp dẫn."
-          : "Educational math game for children with fun mini-games and engaging reward system.",
-      image: "/placeholder.svg?height=300&width=400",
-      category: "education",
-      tags: ["Unity", "WebGL", "Education", "Kids"],
-      playUrl: "#",
-      players: "1",
-      duration: "10-20 min",
-      rating: 4.9,
-      plays: 3200,
-      featured: false,
-    },
-    {
-      id: 4,
-      title: "Neon Racing Circuit",
-      description:
-        language === "vi"
-          ? "Game đua xe futuristic với hiệu ứng neon tuyệt đẹp, tốc độ cao và nhiều track thử thách."
-          : "Futuristic racing game with stunning neon effects, high speed action and challenging tracks.",
-      image: "/placeholder.svg?height=300&width=400",
-      category: "casual",
-      tags: ["Unity", "WebGL", "Racing", "Arcade"],
-      playUrl: "#",
-      players: "1-2",
-      duration: "5-15 min",
-      rating: 4.4,
-      plays: 1650,
-      featured: false,
-    },
-    {
-      id: 5,
-      title: "Tower Defense Ultimate",
-      description:
-        language === "vi"
-          ? "Game phòng thủ tháp với nhiều loại tháp, quái vật và chiến lược đa dạng. Bảo vệ căn cứ của bạn!"
-          : "Tower defense game with multiple tower types, monsters and diverse strategies. Defend your base!",
-      image: "/placeholder.svg?height=300&width=400",
-      category: "strategy",
-      tags: ["Unity", "WebGL", "Tower Defense", "Strategy"],
-      playUrl: "#",
-      players: "1",
-      duration: "20-40 min",
-      rating: 4.7,
-      plays: 2800,
-      featured: true,
-    },
-    {
-      id: 6,
-      title: "Word Builder Academy",
-      description:
-        language === "vi"
-          ? "Game học từ vựng tiếng Anh với gameplay thú vị, phù hợp cho mọi lứa tuổi học tập."
-          : "English vocabulary learning game with engaging gameplay, suitable for all learning ages.",
-      image: "/placeholder.svg?height=300&width=400",
-      category: "education",
-      tags: ["Unity", "WebGL", "Education", "Language"],
-      playUrl: "#",
-      players: "1",
-      duration: "15-25 min",
-      rating: 4.5,
-      plays: 1420,
-      featured: false,
-    },
+  id: 2,
+  title: "Flappy Bird Unity",
+  description:
+    language === "vi"
+      ? "Game arcade đơn giản, người chơi điều khiển một chú chim bay qua các cột ống màu xanh lá cây mà không chạm vào chúng."
+      : "Simple arcade game where the player controls a bird, navigating it through a series of green pipes without hitting them.",
+  image: "/game/flappybird.png",
+  category: "arcade",
+  tags: ["Unity", "Mobile", "Skill", "Hypercasual"],
+  playUrl: "#",
+  players: "1",
+  duration: "1-5 min",
+  rating: 4.6,
+  plays: 1890,
+  featured: true,
+},
+    
   ]
 
   return (
