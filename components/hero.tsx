@@ -27,19 +27,23 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="max-w-4xl mx-auto"
         >
-          {/* Avatar */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="mb-8"
-          >
-            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-blue-400 via-purple-400 to-blue-600 p-1 shadow-2xl">
-              <div className="w-full h-full rounded-full bg-background flex items-center justify-center text-4xl font-bold font-sora">
-                QTL
-              </div>
-            </div>
-          </motion.div>
+{/* Avatar */}
+<motion.div
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 1, delay: 0.5 }}
+  className="mb-8"
+>
+  <div className="w-64 h-64 mx-auto rounded-full bg-gradient-to-br from-blue-400 via-purple-400 to-blue-600 p-1 shadow-2xl">
+    <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
+      <img
+        src="/long/long.png" // Đảm bảo ảnh ở đây có chất lượng cao
+        alt="Avatar"
+        className="w-full h-full rounded-full object-cover"
+      />
+    </div>
+  </div>
+</motion.div>
 
           {/* Name */}
           <motion.h1
