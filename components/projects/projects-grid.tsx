@@ -81,16 +81,16 @@ export function ProjectsGrid() {
     },
     {
       id: 5,
-      title: "Investment Portfolio Tracker",
+      title: "S17 Trading - Advanced Crypto Trading & Investment Platform",
       description:
         language === "vi"
-          ? "Ứng dụng theo dõi danh mục đầu tư với real-time data, phân tích rủi ro và báo cáo hiệu suất."
-          : "Investment portfolio tracking app with real-time data, risk analysis and performance reporting.",
-      image: "/placeholder.svg?height=300&width=400",
+          ? "S17 Trading là một nền tảng giao dịch và đầu tư tiền điện tử thế hệ mới, được thiết kế cho cả người mới bắt đầu lẫn các nhà giao dịch chuyên nghiệp. Với giao diện trực quan, các công cụ toàn diện và phân tích mạnh mẽ, S17 Trading cung cấp mọi thứ bạn cần để thành công trên thị trường crypto."
+          : "S17 Trading is a next-generation cryptocurrency trading and investment platform designed for both beginners and professional traders. With its intuitive interface, comprehensive tools, and powerful analytics, S17 Trading provides everything you need to succeed in the crypto market.",
+      image: "/project/S17.png",
       category: "investment",
       tags: ["React", "Node.js", "Redis", "Chart.js", "WebSocket"],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/StephenSouth13/s17-trading",
+      demo: "s17-trading.vercel.app",
       date: "2024-01",
       team: 2,
       views: 780,
@@ -98,17 +98,17 @@ export function ProjectsGrid() {
     },
     {
       id: 6,
-      title: "Real-time Chat Application",
+  title:"🏛️ Martyrs Memorial Website",
       description:
         language === "vi"
-          ? "Ứng dụng chat real-time với video call, file sharing, encryption và group management."
-          : "Real-time chat application with video calls, file sharing, encryption and group management.",
-      image: "/placeholder.svg?height=300&width=400",
-      category: "web",
-      tags: ["Socket.io", "WebRTC", "Express", "MongoDB", "JWT"],
+          ? "Website tưởng niệm liệt sĩ hiện đại với sơ đồ mộ tương tác, thư viện ảnh nghĩa trang, tìm kiếm thông minh và hệ thống CMS quản lý nội dung. Được xây dựng với React, TypeScript, Tailwind CSS và Framer Motion."
+          : "A modern memorial website for martyrs featuring an interactive grave layout, cemetery photo gallery, smart search, and a CMS content management system. Built with React, TypeScript, Tailwind CSS, and Framer Motion.",
+      image: "/project/VBmemorial.png",
+          category: "web",
+      tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "CMS"],
       github: "#",
-      demo: "#",
-      date: "2023-11",
+      demo: "https://vinh-bao-memorial-ver32.onrender.com/",
+      date: "2025-05",
       team: 3,
       views: 920,
       featured: false,
