@@ -1,6 +1,6 @@
 import { ContactHero } from "@/components/contact/contact-hero"
 import { ContactForm } from "@/components/contact/contact-form"
-import { ContactInfo } from "@/components/contact/contact-info"
+import { ContactPanel } from "@/components/contact/contact-info"; 
 import { ContactMap } from "@/components/contact/contact-map"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "Quách Thành Long",
     images: [
       {
-        url: "https://quachthanhlong.com/og-contact.jpg",
+        url: "https://quachthanhlong.com/long/long.png",
         width: 1200,
         height: 630,
         alt: "Contact Quách Thành Long",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Contact - Quách Thành Long | Get In Touch",
     description:
       "Contact Quách Thành Long for web development, business analysis, game development projects, or investment opportunities.",
-    images: ["https://quachthanhlong.com/og-contact.jpg"],
+    images: ["https://quachthanhlong.com/long/long.png"],
   },
 }
 
@@ -45,7 +45,7 @@ export default function ContactPage() {
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <ContactForm />
-          <ContactInfo />
+          <ContactPanel />
         </div>
       </div>
       <ContactMap />
