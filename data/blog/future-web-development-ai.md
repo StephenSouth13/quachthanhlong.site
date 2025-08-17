@@ -2,6 +2,7 @@
 image: /blog/future-web-ai.png
 title: "🚀 Tương Lai Phát Triển Web với Trí Tuệ Nhân Tạo"
 date: 2025-08-17
+author: Quach Thanh Long
 ---
 
 ## Khi AI gặp Web Development
