@@ -92,6 +92,23 @@ export function GamesGrid() {
     playUrl: "https://cosmic-emotion-letter-game.vercel.app/play",
     target: "_blank",
   },
+  {
+    id: 6,
+    title: "🎮 Pixel Adventure Unity",
+    description:
+      language === "vi"
+        ? "Game platformer 2D phong cách pixel art. Hóa thân thành nhân vật nhỏ bé, vượt chướng ngại vật, thu thập vật phẩm và chinh phục hành trình!"
+        : "2D pixel art platformer where you control a tiny hero to overcome obstacles, collect treasures, and conquer the adventure!",
+    image: "/game/pixeladventure.png",
+    category: "platformer",
+    tags: ["Unity", "2D", "PixelArt", "Platformer"],
+    playUrl: "https://github.com/StephenSouth13/Pixel-Adventure-Unity",
+    players: "1",
+    duration: "5-15 min",
+    rating: 4.7,
+    plays: 1250,
+    featured: true,
+  },
 ];
 
 
