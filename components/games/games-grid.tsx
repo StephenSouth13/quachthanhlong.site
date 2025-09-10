@@ -102,7 +102,7 @@ export function GamesGrid() {
     image: "/game/pixeladventure.png",
     category: "platformer",
     tags: ["Unity", "2D", "PixelArt", "Platformer"],
-    playUrl: "https://github.com/StephenSouth13/Pixel-Adventure-Unity",
+    playUrl: "https://quachthanh-long.itch.io/pixel-adventure-unity",
     players: "1",
     duration: "5-15 min",
     rating: 4.7,
